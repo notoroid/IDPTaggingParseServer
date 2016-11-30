@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F03D7A35893FA54771F46DB /* libPods-IDPTaggingParseServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A24285AD2CF48A62A0AFBC55 /* libPods-IDPTaggingParseServer.a */; };
+		8726B7F81DEEAC9700DDE9AE /* IDPTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7DE1DEEAC9700DDE9AE /* IDPTagCell.m */; };
+		8726B7F91DEEAC9700DDE9AE /* IDPTagColorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7E01DEEAC9700DDE9AE /* IDPTagColorCell.m */; };
+		8726B7FA1DEEAC9700DDE9AE /* IDPTagColorCheckView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7E21DEEAC9700DDE9AE /* IDPTagColorCheckView.m */; };
+		8726B7FB1DEEAC9700DDE9AE /* IDPTagColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7E41DEEAC9700DDE9AE /* IDPTagColorViewController.m */; };
+		8726B7FC1DEEAC9700DDE9AE /* IDPTagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7E61DEEAC9700DDE9AE /* IDPTagController.m */; };
+		8726B7FD1DEEAC9700DDE9AE /* IDPTagDriver.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7E81DEEAC9700DDE9AE /* IDPTagDriver.m */; };
+		8726B7FE1DEEAC9700DDE9AE /* IDPTagDriverExistObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7EA1DEEAC9700DDE9AE /* IDPTagDriverExistObject.m */; };
+		8726B7FF1DEEAC9700DDE9AE /* IDPTagDriverNewObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7EC1DEEAC9700DDE9AE /* IDPTagDriverNewObject.m */; };
+		8726B8001DEEAC9700DDE9AE /* IDPTagStyleKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7EE1DEEAC9700DDE9AE /* IDPTagStyleKit.m */; };
+		8726B8011DEEAC9700DDE9AE /* IDPTagTitleBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7F01DEEAC9700DDE9AE /* IDPTagTitleBackgroundView.m */; };
+		8726B8021DEEAC9700DDE9AE /* IDPTagTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7F21DEEAC9700DDE9AE /* IDPTagTitleView.m */; };
+		8726B8031DEEAC9700DDE9AE /* IDPTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7F41DEEAC9700DDE9AE /* IDPTagViewController.m */; };
+		8726B8041DEEAC9700DDE9AE /* TaggingParseServer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8726B7F51DEEAC9700DDE9AE /* TaggingParseServer.storyboard */; };
+		8726B8051DEEAC9700DDE9AE /* UIColor+IDPTag.m in Sources */ = {isa = PBXBuildFile; fileRef = 8726B7F71DEEAC9700DDE9AE /* UIColor+IDPTag.m */; };
+		879CB7F21DEDB1DB00C2F369 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 879CB7F11DEDB1DB00C2F369 /* main.m */; };
+		879CB7F51DEDB1DB00C2F369 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 879CB7F41DEDB1DB00C2F369 /* AppDelegate.m */; };
+		879CB7F81DEDB1DB00C2F369 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 879CB7F71DEDB1DB00C2F369 /* ViewController.m */; };
+		879CB7FB1DEDB1DB00C2F369 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879CB7F91DEDB1DB00C2F369 /* Main.storyboard */; };
+		879CB7FD1DEDB1DB00C2F369 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 879CB7FC1DEDB1DB00C2F369 /* Assets.xcassets */; };
+		879CB8001DEDB1DB00C2F369 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 879CB7FE1DEDB1DB00C2F369 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8726B7DD1DEEAC9700DDE9AE /* IDPTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagCell.h; sourceTree = "<group>"; };
+		8726B7DE1DEEAC9700DDE9AE /* IDPTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagCell.m; sourceTree = "<group>"; };
+		8726B7DF1DEEAC9700DDE9AE /* IDPTagColorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagColorCell.h; sourceTree = "<group>"; };
+		8726B7E01DEEAC9700DDE9AE /* IDPTagColorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagColorCell.m; sourceTree = "<group>"; };
+		8726B7E11DEEAC9700DDE9AE /* IDPTagColorCheckView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagColorCheckView.h; sourceTree = "<group>"; };
+		8726B7E21DEEAC9700DDE9AE /* IDPTagColorCheckView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagColorCheckView.m; sourceTree = "<group>"; };
+		8726B7E31DEEAC9700DDE9AE /* IDPTagColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagColorViewController.h; sourceTree = "<group>"; };
+		8726B7E41DEEAC9700DDE9AE /* IDPTagColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagColorViewController.m; sourceTree = "<group>"; };
+		8726B7E51DEEAC9700DDE9AE /* IDPTagController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagController.h; sourceTree = "<group>"; };
+		8726B7E61DEEAC9700DDE9AE /* IDPTagController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagController.m; sourceTree = "<group>"; };
+		8726B7E71DEEAC9700DDE9AE /* IDPTagDriver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagDriver.h; sourceTree = "<group>"; };
+		8726B7E81DEEAC9700DDE9AE /* IDPTagDriver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagDriver.m; sourceTree = "<group>"; };
+		8726B7E91DEEAC9700DDE9AE /* IDPTagDriverExistObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagDriverExistObject.h; sourceTree = "<group>"; };
+		8726B7EA1DEEAC9700DDE9AE /* IDPTagDriverExistObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagDriverExistObject.m; sourceTree = "<group>"; };
+		8726B7EB1DEEAC9700DDE9AE /* IDPTagDriverNewObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagDriverNewObject.h; sourceTree = "<group>"; };
+		8726B7EC1DEEAC9700DDE9AE /* IDPTagDriverNewObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagDriverNewObject.m; sourceTree = "<group>"; };
+		8726B7ED1DEEAC9700DDE9AE /* IDPTagStyleKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagStyleKit.h; sourceTree = "<group>"; };
+		8726B7EE1DEEAC9700DDE9AE /* IDPTagStyleKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagStyleKit.m; sourceTree = "<group>"; };
+		8726B7EF1DEEAC9700DDE9AE /* IDPTagTitleBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagTitleBackgroundView.h; sourceTree = "<group>"; };
+		8726B7F01DEEAC9700DDE9AE /* IDPTagTitleBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagTitleBackgroundView.m; sourceTree = "<group>"; };
+		8726B7F11DEEAC9700DDE9AE /* IDPTagTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagTitleView.h; sourceTree = "<group>"; };
+		8726B7F21DEEAC9700DDE9AE /* IDPTagTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagTitleView.m; sourceTree = "<group>"; };
+		8726B7F31DEEAC9700DDE9AE /* IDPTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDPTagViewController.h; sourceTree = "<group>"; };
+		8726B7F41DEEAC9700DDE9AE /* IDPTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDPTagViewController.m; sourceTree = "<group>"; };
+		8726B7F51DEEAC9700DDE9AE /* TaggingParseServer.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TaggingParseServer.storyboard; sourceTree = "<group>"; };
+		8726B7F61DEEAC9700DDE9AE /* UIColor+IDPTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+IDPTag.h"; sourceTree = "<group>"; };
+		8726B7F71DEEAC9700DDE9AE /* UIColor+IDPTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+IDPTag.m"; sourceTree = "<group>"; };
+		879CB7ED1DEDB1DB00C2F369 /* IDPTaggingParseServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDPTaggingParseServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		879CB7F11DEDB1DB00C2F369 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		879CB7F31DEDB1DB00C2F369 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		879CB7F41DEDB1DB00C2F369 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		879CB7F61DEDB1DB00C2F369 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		879CB7F71DEDB1DB00C2F369 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		879CB7FA1DEDB1DB00C2F369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		879CB7FC1DEDB1DB00C2F369 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		879CB7FF1DEDB1DB00C2F369 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		879CB8011DEDB1DB00C2F369 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		988E4E20434752AA4EF894AB /* Pods-IDPTaggingParseServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDPTaggingParseServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IDPTaggingParseServer/Pods-IDPTaggingParseServer.debug.xcconfig"; sourceTree = "<group>"; };
+		A24285AD2CF48A62A0AFBC55 /* libPods-IDPTaggingParseServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IDPTaggingParseServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9085D819960E50E48105F4D /* Pods-IDPTaggingParseServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IDPTaggingParseServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-IDPTaggingParseServer/Pods-IDPTaggingParseServer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		879CB7EA1DEDB1DB00C2F369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F03D7A35893FA54771F46DB /* libPods-IDPTaggingParseServer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		464410836455A0091CE912EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				988E4E20434752AA4EF894AB /* Pods-IDPTaggingParseServer.debug.xcconfig */,
+				E9085D819960E50E48105F4D /* Pods-IDPTaggingParseServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		659A36641E5C98F190B06FAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A24285AD2CF48A62A0AFBC55 /* libPods-IDPTaggingParseServer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8726B7DC1DEEAC9700DDE9AE /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				8726B7DD1DEEAC9700DDE9AE /* IDPTagCell.h */,
+				8726B7DE1DEEAC9700DDE9AE /* IDPTagCell.m */,
+				8726B7DF1DEEAC9700DDE9AE /* IDPTagColorCell.h */,
+				8726B7E01DEEAC9700DDE9AE /* IDPTagColorCell.m */,
+				8726B7E11DEEAC9700DDE9AE /* IDPTagColorCheckView.h */,
+				8726B7E21DEEAC9700DDE9AE /* IDPTagColorCheckView.m */,
+				8726B7E31DEEAC9700DDE9AE /* IDPTagColorViewController.h */,
+				8726B7E41DEEAC9700DDE9AE /* IDPTagColorViewController.m */,
+				8726B7E51DEEAC9700DDE9AE /* IDPTagController.h */,
+				8726B7E61DEEAC9700DDE9AE /* IDPTagController.m */,
+				8726B7E71DEEAC9700DDE9AE /* IDPTagDriver.h */,
+				8726B7E81DEEAC9700DDE9AE /* IDPTagDriver.m */,
+				8726B7E91DEEAC9700DDE9AE /* IDPTagDriverExistObject.h */,
+				8726B7EA1DEEAC9700DDE9AE /* IDPTagDriverExistObject.m */,
+				8726B7EB1DEEAC9700DDE9AE /* IDPTagDriverNewObject.h */,
+				8726B7EC1DEEAC9700DDE9AE /* IDPTagDriverNewObject.m */,
+				8726B7ED1DEEAC9700DDE9AE /* IDPTagStyleKit.h */,
+				8726B7EE1DEEAC9700DDE9AE /* IDPTagStyleKit.m */,
+				8726B7EF1DEEAC9700DDE9AE /* IDPTagTitleBackgroundView.h */,
+				8726B7F01DEEAC9700DDE9AE /* IDPTagTitleBackgroundView.m */,
+				8726B7F11DEEAC9700DDE9AE /* IDPTagTitleView.h */,
+				8726B7F21DEEAC9700DDE9AE /* IDPTagTitleView.m */,
+				8726B7F31DEEAC9700DDE9AE /* IDPTagViewController.h */,
+				8726B7F41DEEAC9700DDE9AE /* IDPTagViewController.m */,
+				8726B7F51DEEAC9700DDE9AE /* TaggingParseServer.storyboard */,
+				8726B7F61DEEAC9700DDE9AE /* UIColor+IDPTag.h */,
+				8726B7F71DEEAC9700DDE9AE /* UIColor+IDPTag.m */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		879CB7E41DEDB1DB00C2F369 = {
+			isa = PBXGroup;
+			children = (
+				8726B7DC1DEEAC9700DDE9AE /* Lib */,
+				879CB7EF1DEDB1DB00C2F369 /* IDPTaggingParseServer */,
+				879CB7EE1DEDB1DB00C2F369 /* Products */,
+				464410836455A0091CE912EE /* Pods */,
+				659A36641E5C98F190B06FAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		879CB7EE1DEDB1DB00C2F369 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				879CB7ED1DEDB1DB00C2F369 /* IDPTaggingParseServer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		879CB7EF1DEDB1DB00C2F369 /* IDPTaggingParseServer */ = {
+			isa = PBXGroup;
+			children = (
+				879CB7F31DEDB1DB00C2F369 /* AppDelegate.h */,
+				879CB7F41DEDB1DB00C2F369 /* AppDelegate.m */,
+				879CB7F61DEDB1DB00C2F369 /* ViewController.h */,
+				879CB7F71DEDB1DB00C2F369 /* ViewController.m */,
+				879CB7F91DEDB1DB00C2F369 /* Main.storyboard */,
+				879CB7FC1DEDB1DB00C2F369 /* Assets.xcassets */,
+				879CB7FE1DEDB1DB00C2F369 /* LaunchScreen.storyboard */,
+				879CB8011DEDB1DB00C2F369 /* Info.plist */,
+				879CB7F01DEDB1DB00C2F369 /* Supporting Files */,
+			);
+			path = IDPTaggingParseServer;
+			sourceTree = "<group>";
+		};
+		879CB7F01DEDB1DB00C2F369 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				879CB7F11DEDB1DB00C2F369 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		879CB7EC1DEDB1DB00C2F369 /* IDPTaggingParseServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 879CB8041DEDB1DB00C2F369 /* Build configuration list for PBXNativeTarget "IDPTaggingParseServer" */;
+			buildPhases = (
+				429EE3F19C7DC1CD933E147C /* [CP] Check Pods Manifest.lock */,
+				879CB7E91DEDB1DB00C2F369 /* Sources */,
+				879CB7EA1DEDB1DB00C2F369 /* Frameworks */,
+				879CB7EB1DEDB1DB00C2F369 /* Resources */,
+				C4650A6119DCB195F424648D /* [CP] Embed Pods Frameworks */,
+				8FEC7AFA455F13721BD10615 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDPTaggingParseServer;
+			productName = IDPTaggingParseServer;
+			productReference = 879CB7ED1DEDB1DB00C2F369 /* IDPTaggingParseServer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		879CB7E51DEDB1DB00C2F369 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Kaname Noto";
+				TargetAttributes = {
+					879CB7EC1DEDB1DB00C2F369 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 879CB7E81DEDB1DB00C2F369 /* Build configuration list for PBXProject "IDPTaggingParseServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 879CB7E41DEDB1DB00C2F369;
+			productRefGroup = 879CB7EE1DEDB1DB00C2F369 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				879CB7EC1DEDB1DB00C2F369 /* IDPTaggingParseServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		879CB7EB1DEDB1DB00C2F369 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				879CB8001DEDB1DB00C2F369 /* LaunchScreen.storyboard in Resources */,
+				879CB7FD1DEDB1DB00C2F369 /* Assets.xcassets in Resources */,
+				879CB7FB1DEDB1DB00C2F369 /* Main.storyboard in Resources */,
+				8726B8041DEEAC9700DDE9AE /* TaggingParseServer.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		429EE3F19C7DC1CD933E147C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FEC7AFA455F13721BD10615 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDPTaggingParseServer/Pods-IDPTaggingParseServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4650A6119DCB195F424648D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IDPTaggingParseServer/Pods-IDPTaggingParseServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		879CB7E91DEDB1DB00C2F369 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8726B7F81DEEAC9700DDE9AE /* IDPTagCell.m in Sources */,
+				8726B7FE1DEEAC9700DDE9AE /* IDPTagDriverExistObject.m in Sources */,
+				8726B8031DEEAC9700DDE9AE /* IDPTagViewController.m in Sources */,
+				8726B7F91DEEAC9700DDE9AE /* IDPTagColorCell.m in Sources */,
+				8726B7FC1DEEAC9700DDE9AE /* IDPTagController.m in Sources */,
+				8726B8021DEEAC9700DDE9AE /* IDPTagTitleView.m in Sources */,
+				8726B7FD1DEEAC9700DDE9AE /* IDPTagDriver.m in Sources */,
+				8726B8011DEEAC9700DDE9AE /* IDPTagTitleBackgroundView.m in Sources */,
+				879CB7F81DEDB1DB00C2F369 /* ViewController.m in Sources */,
+				879CB7F51DEDB1DB00C2F369 /* AppDelegate.m in Sources */,
+				8726B7FB1DEEAC9700DDE9AE /* IDPTagColorViewController.m in Sources */,
+				8726B7FA1DEEAC9700DDE9AE /* IDPTagColorCheckView.m in Sources */,
+				8726B8051DEEAC9700DDE9AE /* UIColor+IDPTag.m in Sources */,
+				8726B8001DEEAC9700DDE9AE /* IDPTagStyleKit.m in Sources */,
+				8726B7FF1DEEAC9700DDE9AE /* IDPTagDriverNewObject.m in Sources */,
+				879CB7F21DEDB1DB00C2F369 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		879CB7F91DEDB1DB00C2F369 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879CB7FA1DEDB1DB00C2F369 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		879CB7FE1DEDB1DB00C2F369 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				879CB7FF1DEDB1DB00C2F369 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		879CB8021DEDB1DB00C2F369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		879CB8031DEDB1DB00C2F369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		879CB8051DEDB1DB00C2F369 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 988E4E20434752AA4EF894AB /* Pods-IDPTaggingParseServer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDPTaggingParseServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irimasu.IDPTaggingParseServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		879CB8061DEDB1DB00C2F369 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9085D819960E50E48105F4D /* Pods-IDPTaggingParseServer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IDPTaggingParseServer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.irimasu.IDPTaggingParseServer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		879CB7E81DEDB1DB00C2F369 /* Build configuration list for PBXProject "IDPTaggingParseServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879CB8021DEDB1DB00C2F369 /* Debug */,
+				879CB8031DEDB1DB00C2F369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		879CB8041DEDB1DB00C2F369 /* Build configuration list for PBXNativeTarget "IDPTaggingParseServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				879CB8051DEDB1DB00C2F369 /* Debug */,
+				879CB8061DEDB1DB00C2F369 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 879CB7E51DEDB1DB00C2F369 /* Project object */;
+}
